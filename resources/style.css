@@ -1,0 +1,283 @@
+/* General -------------------------------------*/
+*{
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+}
+
+h2{
+  font-size: 28px;
+  padding: 0px;
+}
+
+h3{
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h4{
+  font-size: 22px;
+  padding: 0px;
+}
+
+h5{
+  font-size: 16px;
+}
+/* Header -------------------------------------*/
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  opacity: 0.9;
+}
+
+.logo{
+  display: inline-flex;
+  padding-left: 10px;
+  height: 50px;
+}
+
+.logo img{
+width: auto;
+height: auto;
+max-height: 50px;
+}
+
+nav{
+  display: inline-flex;
+}
+
+nav span{
+  text-decoration: underline;
+  padding: 10px;
+}
+
+/* The whole thing ----------------------------*/
+.whole{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  margin-top: 0px;
+  padding: 0px;
+  z-index: 5;
+}
+/* Mission section -------------------------------------*/
+.mission{
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url(img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0px;
+}
+
+.mission .title-container{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: auto;
+}
+
+.mission .title{
+  /* Our Mission --*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin: 10px;
+}
+
+.mission .subtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+/* Featured Tea section -------------------------------------*/
+.featured-tea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.featured-tea .title h2{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+.featured-tea .subtitle h4{
+  margin: 20px;
+}
+
+.product-image img{
+  object-fit: cover;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.footer h4{
+  margin: 15px;
+}
+
+.top-row{
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+
+.fall-berry{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+.spiced-rum{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+.seasonal-donuts{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+.bot-row{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+}
+
+.myrtle-ave{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px 25px 0px 0px;
+  align-items: center;
+}
+
+.bedford-bizarre{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px 0px 0px 25px;
+  align-items: center;
+}
+
+/* Locations Section -------------------------------------*/
+.locations{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  background-image: url(img-locations-background.jpg);
+  background-position: 70% 23%;
+  background-size: 100%;
+  align-items: center;
+  margin: 70px 0px 0px 0px;
+}
+
+.locations .title{
+  display: flex;
+  background-color: transparent;
+  margin: 70px 0px 15px 0px;
+}
+
+.locations .title h2{
+  background-color: transparent;
+  margin: 0px;
+}
+
+.adresses{
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  background-color: transparent;
+  margin: 0px;
+}
+
+.adresses p{
+  font-family: helvetica;
+  font-size: 22px;
+  margin: 0px;
+  padding: 0px
+}
+
+.downtown{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+}
+
+.bayside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+}
+
+.oakdale{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+}
+
+/* Contact Section -------------------------------------*/
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 70px;
+}
+
+.contact h2{
+  margin: 10px 0px 50px 0px;;
+}
+
+.contact h5{
+  margin: 0px 0px 30px 0px;
+}
+
+/* copyright Section -------------------------------------*/
+.copyright{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-align: left;
+}
+
+.copyright p{
+  margin: 0px;
+}
